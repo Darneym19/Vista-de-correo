@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="ciudad">Bogotá</string>
+    <string name="activo">Activo</string>
+    <string name="imail">Correo Electronico Pascual Bravo</string>
+    <string name="Titulo">Correo De Bienvenida</string>
+    <string name="regresar">Atras</string>
+    <string name="Dato1"> Nuevo Correo</string>
+</resources>
