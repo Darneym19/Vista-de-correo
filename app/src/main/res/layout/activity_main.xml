@@ -11,7 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#95FC39"
+        android:background="#ba9df4"
         app:titleTextColor="@color/black"
         app:title="@string/imail"
         android:elevation="2dp"

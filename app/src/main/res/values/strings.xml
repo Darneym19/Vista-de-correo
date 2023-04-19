@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">RecyclerView</string>
-    <string name="ciudad">Bogotá</string>
+    <string name="app_name">Mi Correo</string>
+    <string name="dato">Valor X</string>
     <string name="activo">Activo</string>
     <string name="imail">Correo Electronico Pascual Bravo</string>
     <string name="Titulo">Correo De Bienvenida</string>

@@ -1,13 +1,15 @@
 package com.movilespascual.recyclerview;
 
 public class ListaElementos {
-    public  String color, name, ciudad, estado;
+    public  String color, name, ciudad, estado, correo, tel;
 
-    public ListaElementos(String color, String name, String ciudad, String estado) {
+    public ListaElementos(String color, String name, String ciudad, String estado, String correo, String tel) {
         this.color = color;
         this.name = name;
         this.ciudad = ciudad;
         this.estado = estado;
+        this.correo = correo;
+        this.tel = tel;
     }
     public String getColor() {
         return color;
@@ -39,6 +41,22 @@ public class ListaElementos {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
     }
 
     public String getInicial() {

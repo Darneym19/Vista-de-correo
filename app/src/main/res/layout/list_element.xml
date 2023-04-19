@@ -45,8 +45,8 @@
                 android:layout_alignRight="@+id/iconoImageView"
                 android:layout_alignBottom="@+id/iconoImageView"
                 android:layout_marginLeft="0dp"
-                android:layout_marginTop="-0dp"
-                android:layout_marginRight="-0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
                 android:layout_marginBottom="0dp"
                 android:text="D"
                 android:textColor="#FFFFFF"
@@ -77,7 +77,21 @@
                     android:id="@+id/cityTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ciudad"
+                    android:text="@string/dato"
+                    android:textSize="18sp">
+                </TextView>
+                <TextView
+                    android:id="@+id/correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dato"
+                    android:textSize="18sp">
+                </TextView>
+                <TextView
+                    android:id="@+id/tel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dato"
                     android:textSize="18sp">
                 </TextView>
             </LinearLayout>

@@ -50,7 +50,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder>{
 
     public class ViewHolder extends RecyclerView.ViewHolder{
         ImageView iconImage;
-        TextView name, city, status, inicial;
+        TextView name, city, status, inicial, correo, tel;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -59,6 +59,8 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder>{
             city = itemView.findViewById(R.id.cityTextView);
             status = itemView.findViewById(R.id.statusTextView);
             inicial = itemView.findViewById(R.id.inicial);
+            correo = itemView.findViewById(R.id.correo);
+            tel = itemView.findViewById(R.id.tel);
             Click = itemView.findViewById(R.id.Click);
         }
         void bindData(final ListaElementos item){
@@ -67,6 +69,8 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder>{
             city.setText(item.getCiudad());
             status.setText(item.getEstado());
             inicial.setText(item.getInicial());
+            correo.setText(item.getCorreo());
+            tel.setText(item.getTel());
 
             Click.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -80,6 +84,9 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder>{
             intent.putExtra("name",item.getName());
             intent.putExtra("ciudad",item.getCiudad());
             intent.putExtra("estado",item.getEstado());
+            intent.putExtra("correo",item.getCorreo());
+            intent.putExtra("color",item.getColor());
+            intent.putExtra("tel",item.getTel());
             myContext.startActivity(intent);
         }
     }

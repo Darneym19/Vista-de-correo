@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:background="#95FC39"
+        android:background="#ba9df4"
         android:textColor="@color/black"
         android:text="@string/Titulo">
     </TextView>
@@ -26,19 +26,36 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
-            android:hint="Dato 1:"
-            android:id="@+id/dato1"
+            android:hint="Nombre:"
+            android:id="@+id/nom"
             android:textSize="23dp">
         </TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
-            android:hint="Dato 2:"
-            android:id="@+id/dato2"
+            android:hint="Ciudad:"
+            android:id="@+id/city"
+            android:textSize="23dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:hint="Correo:"
+            android:id="@+id/correo"
+            android:textSize="23dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:hint="Telefono:"
+            android:id="@+id/tel"
             android:textSize="23dp">
         </TextView>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
